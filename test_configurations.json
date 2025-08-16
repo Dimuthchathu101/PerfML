@@ -1,0 +1,1979 @@
+[
+  {
+    "test_id": "api_10u_wifi__api_health",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_10u_wifi__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_10u_wifi__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_10u_wifi__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_10u_wifi__api_upload",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_10u_wifi__api_slow",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_10u_wifi__api_memory",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_10u_4g__api_health",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_10u_4g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_10u_4g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_10u_4g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_10u_4g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_10u_4g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_10u_4g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_10u_3g__api_health",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_10u_3g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_10u_3g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_10u_3g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_10u_3g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_10u_3g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_10u_3g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_50u_wifi__api_health",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_50u_wifi__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_50u_wifi__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_50u_wifi__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_50u_wifi__api_upload",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_50u_wifi__api_slow",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_50u_wifi__api_memory",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_50u_4g__api_health",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_50u_4g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_50u_4g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_50u_4g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_50u_4g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_50u_4g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_50u_4g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_50u_3g__api_health",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_50u_3g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_50u_3g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_50u_3g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_50u_3g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_50u_3g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_50u_3g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_100u_wifi__api_health",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_100u_wifi__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_100u_wifi__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_100u_wifi__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_100u_wifi__api_upload",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_100u_wifi__api_slow",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_100u_wifi__api_memory",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_100u_4g__api_health",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_100u_4g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_100u_4g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_100u_4g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_100u_4g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_100u_4g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_100u_4g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_100u_3g__api_health",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_100u_3g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_100u_3g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_100u_3g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_100u_3g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_100u_3g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_100u_3g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_200u_wifi__api_health",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_200u_wifi__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_200u_wifi__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_200u_wifi__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_200u_wifi__api_upload",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_200u_wifi__api_slow",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_200u_wifi__api_memory",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_200u_4g__api_health",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_200u_4g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_200u_4g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_200u_4g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_200u_4g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_200u_4g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_200u_4g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_200u_3g__api_health",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_200u_3g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_200u_3g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_200u_3g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_200u_3g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_200u_3g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_200u_3g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_500u_wifi__api_health",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_500u_wifi__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_500u_wifi__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_500u_wifi__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_500u_wifi__api_upload",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_500u_wifi__api_slow",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_500u_wifi__api_memory",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_500u_4g__api_health",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_500u_4g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_500u_4g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_500u_4g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_500u_4g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_500u_4g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_500u_4g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "4g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "api_500u_3g__api_health",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/health"
+  },
+  {
+    "test_id": "api_500u_3g__api_data_test",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/data/test"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/data/test"
+  },
+  {
+    "test_id": "api_500u_3g__api_search?q=performance",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/search?q=performance"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/search?q=performance"
+  },
+  {
+    "test_id": "api_500u_3g__api_users?page=1&limit=10",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/users?page=1&limit=10"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/users?page=1&limit=10"
+  },
+  {
+    "test_id": "api_500u_3g__api_upload",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/upload"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/upload"
+  },
+  {
+    "test_id": "api_500u_3g__api_slow",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/slow"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/slow"
+  },
+  {
+    "test_id": "api_500u_3g__api_memory",
+    "test_type": "api",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 300,
+    "network_condition": "3g",
+    "browser": null,
+    "api_endpoints": [
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/api/memory"
+  },
+  {
+    "test_id": "frontend_chrome_wifi__",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "wifi",
+    "browser": "chrome",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/"
+  },
+  {
+    "test_id": "frontend_chrome_wifi__?heavy=true",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "wifi",
+    "browser": "chrome",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/?heavy=true"
+  },
+  {
+    "test_id": "frontend_chrome_4g__",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "4g",
+    "browser": "chrome",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/"
+  },
+  {
+    "test_id": "frontend_chrome_4g__?heavy=true",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "4g",
+    "browser": "chrome",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/?heavy=true"
+  },
+  {
+    "test_id": "frontend_chrome_slow_3g__",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "slow_3g",
+    "browser": "chrome",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/"
+  },
+  {
+    "test_id": "frontend_chrome_slow_3g__?heavy=true",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "slow_3g",
+    "browser": "chrome",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/?heavy=true"
+  },
+  {
+    "test_id": "frontend_firefox_wifi__",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "wifi",
+    "browser": "firefox",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/"
+  },
+  {
+    "test_id": "frontend_firefox_wifi__?heavy=true",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "wifi",
+    "browser": "firefox",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/?heavy=true"
+  },
+  {
+    "test_id": "frontend_firefox_4g__",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "4g",
+    "browser": "firefox",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/"
+  },
+  {
+    "test_id": "frontend_firefox_4g__?heavy=true",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "4g",
+    "browser": "firefox",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/?heavy=true"
+  },
+  {
+    "test_id": "frontend_firefox_slow_3g__",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "slow_3g",
+    "browser": "firefox",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/"
+  },
+  {
+    "test_id": "frontend_firefox_slow_3g__?heavy=true",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "slow_3g",
+    "browser": "firefox",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/?heavy=true"
+  },
+  {
+    "test_id": "frontend_safari_wifi__",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "wifi",
+    "browser": "safari",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/"
+  },
+  {
+    "test_id": "frontend_safari_wifi__?heavy=true",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "wifi",
+    "browser": "safari",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/?heavy=true"
+  },
+  {
+    "test_id": "frontend_safari_4g__",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "4g",
+    "browser": "safari",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/"
+  },
+  {
+    "test_id": "frontend_safari_4g__?heavy=true",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "4g",
+    "browser": "safari",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/?heavy=true"
+  },
+  {
+    "test_id": "frontend_safari_slow_3g__",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "slow_3g",
+    "browser": "safari",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/"
+  },
+  {
+    "test_id": "frontend_safari_slow_3g__?heavy=true",
+    "test_type": "frontend",
+    "concurrent_users": 1,
+    "spawn_rate": 0.1,
+    "duration": 60,
+    "network_condition": "slow_3g",
+    "browser": "safari",
+    "api_endpoints": null,
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000/?heavy=true"
+  },
+  {
+    "test_id": "load_10u_1.0s",
+    "test_type": "load",
+    "concurrent_users": 10,
+    "spawn_rate": 1.0,
+    "duration": 120,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health",
+      "/api/data/test",
+      "/api/search?q=performance",
+      "/api/users?page=1&limit=10",
+      "/api/upload",
+      "/api/slow",
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000"
+  },
+  {
+    "test_id": "load_50u_2.0s",
+    "test_type": "load",
+    "concurrent_users": 50,
+    "spawn_rate": 2.0,
+    "duration": 300,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health",
+      "/api/data/test",
+      "/api/search?q=performance",
+      "/api/users?page=1&limit=10",
+      "/api/upload",
+      "/api/slow",
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000"
+  },
+  {
+    "test_id": "load_100u_5.0s",
+    "test_type": "load",
+    "concurrent_users": 100,
+    "spawn_rate": 5.0,
+    "duration": 600,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health",
+      "/api/data/test",
+      "/api/search?q=performance",
+      "/api/users?page=1&limit=10",
+      "/api/upload",
+      "/api/slow",
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000"
+  },
+  {
+    "test_id": "load_200u_10.0s",
+    "test_type": "load",
+    "concurrent_users": 200,
+    "spawn_rate": 10.0,
+    "duration": 900,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health",
+      "/api/data/test",
+      "/api/search?q=performance",
+      "/api/users?page=1&limit=10",
+      "/api/upload",
+      "/api/slow",
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000"
+  },
+  {
+    "test_id": "load_500u_20.0s",
+    "test_type": "load",
+    "concurrent_users": 500,
+    "spawn_rate": 20.0,
+    "duration": 1200,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health",
+      "/api/data/test",
+      "/api/search?q=performance",
+      "/api/users?page=1&limit=10",
+      "/api/upload",
+      "/api/slow",
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000"
+  },
+  {
+    "test_id": "stress_1000u_50.0s",
+    "test_type": "stress",
+    "concurrent_users": 1000,
+    "spawn_rate": 50.0,
+    "duration": 1800,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health",
+      "/api/data/test",
+      "/api/search?q=performance",
+      "/api/users?page=1&limit=10",
+      "/api/upload",
+      "/api/slow",
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000"
+  },
+  {
+    "test_id": "stress_2000u_100.0s",
+    "test_type": "stress",
+    "concurrent_users": 2000,
+    "spawn_rate": 100.0,
+    "duration": 2400,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health",
+      "/api/data/test",
+      "/api/search?q=performance",
+      "/api/users?page=1&limit=10",
+      "/api/upload",
+      "/api/slow",
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000"
+  },
+  {
+    "test_id": "stress_5000u_200.0s",
+    "test_type": "stress",
+    "concurrent_users": 5000,
+    "spawn_rate": 200.0,
+    "duration": 3600,
+    "network_condition": "wifi",
+    "browser": null,
+    "api_endpoints": [
+      "/api/health",
+      "/api/data/test",
+      "/api/search?q=performance",
+      "/api/users?page=1&limit=10",
+      "/api/upload",
+      "/api/slow",
+      "/api/memory"
+    ],
+    "custom_headers": null,
+    "payload_size": null,
+    "target_url": "http://localhost:5000"
+  }
+]

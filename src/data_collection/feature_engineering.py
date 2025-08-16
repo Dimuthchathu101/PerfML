@@ -30,6 +30,10 @@ class PerformanceFeatureEngineer:
         # Create a copy to avoid modifying original data
         df_engineered = df.copy()
         
+        # Preserve important metadata columns
+        metadata_cols = ['test_id', 'timestamp', 'test_type']
+        preserved_cols = [col for col in metadata_cols if col in df.columns]
+        
         # Basic derived features
         df_engineered = self._create_basic_features(df_engineered)
         
@@ -56,6 +60,11 @@ class PerformanceFeatureEngineer:
         
         # Resource complexity features
         df_engineered = self._create_complexity_features(df_engineered)
+        
+        # Ensure preserved columns are still present
+        for col in preserved_cols:
+            if col not in df_engineered.columns and col in df.columns:
+                df_engineered[col] = df[col]
         
         logger.info(f"Feature engineering completed. Original features: {len(df.columns)}, New features: {len(df_engineered.columns)}")
         
@@ -218,16 +227,20 @@ class PerformanceFeatureEngineer:
         
         for score in lighthouse_scores:
             if score in df.columns:
+                # Handle None values by filling with 0.5 (neutral score)
+                score_data = df[score].fillna(0.5)
                 df[f'{score}_category'] = pd.cut(
-                    df[score],
+                    score_data,
                     bins=[0, 0.5, 0.7, 0.9, 1.0],
                     labels=['poor', 'needs_improvement', 'good', 'excellent']
                 )
         
         # Overall frontend score
         if all(score in df.columns for score in lighthouse_scores):
-            df['overall_frontend_score'] = df[lighthouse_scores].mean(axis=1)
-            df['frontend_consistency'] = df[lighthouse_scores].std(axis=1)
+            # Fill None values with 0.5 before calculating mean and std
+            lighthouse_data = df[lighthouse_scores].fillna(0.5)
+            df['overall_frontend_score'] = lighthouse_data.mean(axis=1)
+            df['frontend_consistency'] = lighthouse_data.std(axis=1)
         
         # Browser-specific features
         if 'browser' in df.columns:
@@ -295,7 +308,10 @@ class PerformanceFeatureEngineer:
         numerical_cols = df.select_dtypes(include=[np.number]).columns.tolist()
         
         # Remove columns that shouldn't be normalized
-        exclude_cols = ['id', 'concurrent_users', 'duration', 'timestamp', 'time_since_epoch']
+        exclude_cols = [
+            'id', 'concurrent_users', 'duration', 'timestamp', 'time_since_epoch',
+            'failure_target', 'reliability_target', 'performance_target', 'anomaly_target'
+        ]
         numerical_cols = [col for col in numerical_cols if col not in exclude_cols]
         
         if method == 'standard':

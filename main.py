@@ -392,20 +392,40 @@ class PerformanceMLSystem:
             # Simulate realistic performance metrics
             base_latency = 100 + concurrent_users * 2 + spawn_rate * 50
             avg_response_time = base_latency + np.random.normal(0, 100)
+            max_response_time = avg_response_time * (1.5 + np.random.uniform(0, 1))
+            min_response_time = avg_response_time * (0.3 + np.random.uniform(0, 0.5))
             requests_per_sec = concurrent_users * spawn_rate * 0.8 + np.random.normal(0, 10)
+            total_requests = int(requests_per_sec * duration)
             error_rate = max(0, (concurrent_users * spawn_rate) / 10000 - 0.5) * 0.1 + np.random.uniform(0, 0.02)
+            total_failures = int(total_requests * error_rate)
+            
+            # Simulate Lighthouse scores
+            performance_score = 0.7 + np.random.uniform(0, 0.3)
+            accessibility_score = 0.8 + np.random.uniform(0, 0.2)
+            best_practices_score = 0.75 + np.random.uniform(0, 0.25)
+            seo_score = 0.8 + np.random.uniform(0, 0.2)
             
             demo_data.append({
                 'test_id': f'test_{i}',
-                'test_type': 'api',
+                'test_type': np.random.choice(['api', 'frontend', 'load']),
                 'timestamp': datetime.now().isoformat(),
+                'total_requests': total_requests,
+                'total_failures': total_failures,
+                'error_rate': min(1, error_rate),
+                'avg_response_time': max(0, avg_response_time),
+                'max_response_time': max(0, max_response_time),
+                'min_response_time': max(0, min_response_time),
+                'requests_per_sec': max(0, requests_per_sec),
                 'concurrent_users': concurrent_users,
                 'spawn_rate': spawn_rate,
                 'duration': duration,
-                'avg_response_time': max(0, avg_response_time),
-                'requests_per_sec': max(0, requests_per_sec),
-                'error_rate': min(1, error_rate),
                 'network_condition': np.random.choice(['wifi', '4g', '3g']),
+                'browser': np.random.choice(['chrome', 'firefox', 'safari', 'edge']),
+                'target_url': f'http://localhost:5000/api/test_{i}',
+                'performance_score': performance_score,
+                'accessibility_score': accessibility_score,
+                'best_practices_score': best_practices_score,
+                'seo_score': seo_score,
                 'status': 'success'
             })
         

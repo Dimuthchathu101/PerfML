@@ -136,24 +136,34 @@ class ModelTrainer:
         """Split data by scenario to avoid data leakage"""
         logger.info("Splitting data by scenario to avoid leakage")
         
-        # Get unique scenarios
-        scenarios = X[scenario_col].unique()
+        # Check if scenario column exists
+        if scenario_col in X.columns:
+            # Get unique scenarios
+            scenarios = X[scenario_col].unique()
+            
+            # Split scenarios
+            train_scenarios, test_scenarios = train_test_split(
+                scenarios, test_size=self.test_size, random_state=self.random_state
+            )
+            
+            # Split data based on scenarios
+            train_mask = X[scenario_col].isin(train_scenarios)
+            test_mask = X[scenario_col].isin(test_scenarios)
+            
+            X_train = X[train_mask].drop(columns=[scenario_col])
+            X_test = X[test_mask].drop(columns=[scenario_col])
+            y_train = y[train_mask]
+            y_test = y[test_mask]
+            
+            logger.info(f"Scenario-based split: Train set: {len(X_train)} samples, Test set: {len(X_test)} samples")
+        else:
+            # Fallback to regular train-test split
+            logger.warning(f"Scenario column '{scenario_col}' not found, using regular train-test split")
+            X_train, X_test, y_train, y_test = train_test_split(
+                X, y, test_size=self.test_size, random_state=self.random_state
+            )
+            logger.info(f"Regular split: Train set: {len(X_train)} samples, Test set: {len(X_test)} samples")
         
-        # Split scenarios
-        train_scenarios, test_scenarios = train_test_split(
-            scenarios, test_size=self.test_size, random_state=self.random_state
-        )
-        
-        # Split data based on scenarios
-        train_mask = X[scenario_col].isin(train_scenarios)
-        test_mask = X[scenario_col].isin(test_scenarios)
-        
-        X_train = X[train_mask].drop(columns=[scenario_col])
-        X_test = X[test_mask].drop(columns=[scenario_col])
-        y_train = y[train_mask]
-        y_test = y[test_mask]
-        
-        logger.info(f"Train set: {len(X_train)} samples, Test set: {len(X_test)} samples")
         return X_train, X_test, y_train, y_test
     
     def train_regression_model(self, X: pd.DataFrame, y: pd.Series, model_name: str, 
